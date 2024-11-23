@@ -17,13 +17,13 @@ export default async function NewAppointment({params: {userId}}: SearchParamProp
           />
 
           <AppointmentForm
-            type='create'
+            type="create"
             userId={userId}
             patientId={patient.$id}
           />
 
-            <p className="text-dark-600 justify-items-end xl:text-left">
-               © 2024, All rights reserved
+            <p className="copyright py-12 mt-10">
+               © 2024, CarePulse
             </p>
         </div>
       </section>
